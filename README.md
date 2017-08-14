@@ -11,3 +11,19 @@ What's covered
 - Array Functions
 - Closures
 - Named Functions
+
+Introducing Functions
+---------------------
+
+In PHP functions are everywhere. Put simply a function is a way for us to organize and group statements of code. Let's learn how these functions work.
+
+```
+<?php
+function foo($arg_1, $arg_2, /* ..., */ $arg_n)
+{
+    echo "Example function.\n";
+    return $retval;
+}
+?>
+
+```
