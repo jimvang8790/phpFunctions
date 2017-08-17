@@ -32,3 +32,15 @@ PHP Function Default Arguments
 ------------------------------
 
 Sometimes if an argument is not passed through, and you want it to have a starting value, no matter what, this is where a default argument will come to your assistance.
+
+```
+<?php
+function makecoffee($type = "cappuccino")
+{
+    return "Making a cup of $type.\n";
+}
+echo makecoffee();
+echo makecoffee(null);
+echo makecoffee("espresso");
+?>
+```
